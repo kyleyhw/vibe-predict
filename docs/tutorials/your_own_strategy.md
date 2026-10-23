@@ -1,6 +1,6 @@
 # Your Own Strategy, on Your Own Copy
 
-The [demo](https://kyleyhw.github.io/prediction_markets/) runs strategies
+The [demo](https://kyleyhw.github.io/vibe-predict/) runs strategies
 made from a sentence or a form. On your own copy of the project you can go
 further: have any AI write the forecasting part as a short Python script,
 backtest it on every past market, and change anything. It is free. There
@@ -9,7 +9,7 @@ are two ways; the first needs nothing installed.
 ## On GitHub, with nothing installed
 
 1. **Make your copy.** Sign in to GitHub, open
-   <https://github.com/kyleyhw/prediction_markets> and press *Fork*.
+   <https://github.com/kyleyhw/vibe-predict> and press *Fork*.
 2. **Turn on its Actions.** In your copy, open the *Actions* tab and press
    the green button that enables workflows.
 3. **Write the strategy with your AI.** Open
@@ -48,8 +48,8 @@ Actions*, then run the *pages* workflow.
 You need Python's `uv` (<https://docs.astral.sh/uv/>) and Git.
 
 ```bash
-git clone https://github.com/<you>/prediction_markets
-cd prediction_markets
+git clone https://github.com/<you>/vibe-predict
+cd vibe-predict
 uv sync
 uv run vp build-dataset --domain epl --histories 600
 uv run vp strategy backtest strategies/example/strategy.json --script strategies/example/forecast.py

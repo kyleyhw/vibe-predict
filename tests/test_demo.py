@@ -458,7 +458,7 @@ def worker(cases: list[dict[str, Any]]) -> list[dict[str, Any]]:
         'return new Response(JSON.stringify(c.google||{candidates:[{content:{parts:[{text:\'{"answer":"question"}\'}]}}]}),{status:c.googleStatus||200});};'
         "const req={method:c.method||'POST',url:'https://w.example/'+(c.path||'compile'),cf:{country:c.country||'US'},"
         "headers:new Headers({origin:c.origin||'https://kyleyhw.github.io','cf-connecting-ip':'1.2.3.4'}),json:async()=>c.body};"
-        "const env={SITE:'https://kyleyhw.github.io/prediction_markets',MODEL:'m',GEMINI_API_KEY:'k',"
+        "const env={SITE:'https://kyleyhw.github.io/vibe-predict',MODEL:'m',GEMINI_API_KEY:'k',"
         "PER_IP:{limit:async()=>({success:!c.limited})}};"
         "const res=await w.fetch(req,env,{},fetcher);const body=res.status===204?null:await res.json();"
         "const google=calls.find(x=>x.url.includes('googleapis'));"

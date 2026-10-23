@@ -26,7 +26,7 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-USER_AGENT = "vibe-predict/0.1 (+https://github.com/kyleyhw/prediction_markets)"
+USER_AGENT = "vibe-predict/0.1 (+https://github.com/kyleyhw/vibe-predict)"
 
 # Upper bound on the random jitter (seconds) added on top of the configured
 # minimum interval, so parallel callers de-synchronise instead of all firing the

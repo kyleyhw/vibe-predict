@@ -321,6 +321,18 @@ get the harness: `vp strategy backtest SPEC --script FILE`
 writes the script, the `strategy` workflow). The hosted platform with
 logins comes later and is unchanged.
 
+**Repository renamed (owner, 2026-10-23):** `kyleyhw/prediction_markets`
+became `kyleyhw/vibe-predict`; the demo moved to
+<https://kyleyhw.github.io/vibe-predict/>. GitHub redirects the old
+repository URLs (web and git) as long as no new repository takes the old
+name, so never create one called `prediction_markets`; it does not
+redirect the old Pages URL. `archive/prediction_markets/` keeps its name:
+it is the original project's. Old branches `claude/determined-franklin-jim7vw`
+and `claude/wizardly-cerf-nd1ji1` each hold one commit by "Claude"
+(rewritten copies were not pushed: the force-push was refused by the
+permission system); the owner decides whether to delete them or allow the
+force-push.
+
 **Next visit (owner, 2026-10-14):** take inspiration from
 <https://www.quant-builder.ai/learn> before further work on the demo or the
 learning pages. It was noted only, not yet reviewed and nothing was built

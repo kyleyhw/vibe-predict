@@ -12,7 +12,7 @@ headline so far is that no baseline beats the market — weather climatology
 scores −0.19 against it, EPL Elo −0.02, CS2 Elo −0.12 — which is the bar a
 strategy has to clear, not a result the project is trying to explain away.
 
-**Try it: [the demo](https://kyleyhw.github.io/prediction_markets/)** runs in
+**Try it: [the demo](https://kyleyhw.github.io/vibe-predict/)** runs in
 the browser with no account and no key. Describe a strategy to the free demo
 AI, build one from a form, or write it as a short Python function, and see
 how it would have done on hundreds of real markets that have ended, in paper
@@ -346,7 +346,7 @@ Kalshi prices; that code is preserved unchanged under
 <summary>The full tree</summary>
 
 ```ascii
-prediction_markets/
+vibe-predict/
 ├── vp/                        # the vibe-predict package (import name `vp`)
 │   ├── cli.py                 # `vp build-dataset`, `vp snapshot`, `vp backtest`, `vp paper`, `vp ui`
 │   ├── venues/

@@ -32,7 +32,7 @@ from mdit_py_plugins.dollarmath import dollarmath_plugin
 
 from vp.docsite.pages import Page
 
-REPO_URL = "https://github.com/kyleyhw/prediction_markets"
+REPO_URL = "https://github.com/kyleyhw/vibe-predict"
 STATIC = Path(__file__).parent / "static"
 FONTS = Path(__file__).resolve().parent.parent / "ui" / "static" / "fonts"
 SECTIONS = (

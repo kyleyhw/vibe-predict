@@ -6,7 +6,7 @@ main = "index.js"
 compatibility_date = "2026-09-01"
 
 [vars]
-SITE = "https://kyleyhw.github.io/prediction_markets"
+SITE = "https://kyleyhw.github.io/vibe-predict"
 MODEL = "gemini-3.1-flash-lite"
 
 # Each visitor's address may send ten messages a minute; Google's own daily

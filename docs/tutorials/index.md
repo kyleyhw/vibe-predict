@@ -1,6 +1,6 @@
 # Tutorials: a Week With the App
 
-**Start with the [demo](https://kyleyhw.github.io/prediction_markets/)**: it
+**Start with the [demo](https://kyleyhw.github.io/vibe-predict/)**: it
 runs in the browser, needs no account, and backtests a strategy you
 describe in a sentence (with your own AI key) or build from a form. To go
 further, [make your own copy and have any AI write a strategy

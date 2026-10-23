@@ -10,7 +10,7 @@ export { esc, fmt, raw, t, tp };
 export const detailed = () => prefs().level === 'detailed';
 
 // How to run your own copy with your own model or script (docs/models.md).
-export const GUIDE_URL = 'https://github.com/kyleyhw/prediction_markets/blob/master/docs/tutorials/run_your_own.md';
+export const GUIDE_URL = 'https://github.com/kyleyhw/vibe-predict/blob/master/docs/tutorials/run_your_own.md';
 
 // A refusal shown where it happened: when the reason is the model (none
 // set up, the demo cannot serve this country, today's demo allowance), the

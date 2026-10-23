@@ -33,9 +33,9 @@ sources.
 ## 1. Get the app
 
 Download it as one file:
-<https://github.com/kyleyhw/prediction_markets/archive/refs/heads/master.zip>,
+<https://github.com/kyleyhw/vibe-predict/archive/refs/heads/master.zip>,
 and unzip it (double-click the file). You get a folder called
-`prediction_markets-master`. (If you use GitHub, *Fork* the project
+`vibe-predict-master`. (If you use GitHub, *Fork* the project
 instead, so you can keep your own changes.)
 
 **Opening a terminal in that folder.** On a Mac, right-click the folder
